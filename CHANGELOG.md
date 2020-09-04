@@ -1,3 +1,12 @@
+* v2.2.3 - 09/04/2020
+    * Bump c-periphery dependency version to v2.2.3 for build fix of GPIO under
+      older Linux kernel headers missing line event support in the gpio-cdev
+      ABI, and to fix bits per word truncation in SPI handle string
+      representation.
+    * Enable build with Lua 5.4.
+    * Contributors
+        * Frédéric Vergez, @ikarius - ae2b61c
+
 * v2.2.2 - 07/28/2020
     * Bump c-periphery dependency version to v2.2.2 for conditional compilation
       of character device GPIO support to allow build under older Linux kernel
